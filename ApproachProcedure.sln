@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApproachProcedure", "ApproachProcedure\ApproachProcedure.csproj", "{42D0ACFD-311A-4486-9696-29C1CA872F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATCDelegateTest", "ATCDelegateTest\ATCDelegateTest.csproj", "{70109BDB-14F1-4F98-B268-70AE095F463F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42D0ACFD-311A-4486-9696-29C1CA872F14} = {42D0ACFD-311A-4486-9696-29C1CA872F14}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D0ACFD-311A-4486-9696-29C1CA872F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D0ACFD-311A-4486-9696-29C1CA872F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D0ACFD-311A-4486-9696-29C1CA872F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D0ACFD-311A-4486-9696-29C1CA872F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70109BDB-14F1-4F98-B268-70AE095F463F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70109BDB-14F1-4F98-B268-70AE095F463F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70109BDB-14F1-4F98-B268-70AE095F463F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70109BDB-14F1-4F98-B268-70AE095F463F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
